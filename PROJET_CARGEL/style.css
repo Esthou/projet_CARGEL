@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    position: fixed;
+    background-color: rgb(0, 44, 67);
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+#img1 {
+    left: 50px;
+    width: 250px;
+    height: 250px;
+    bottom: 60px;
+}
+
+.navbar .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navbar .menu p {
+    color:white;
+    margin: 20px;
+}
+
+.navbar .menu p:hover {
+    cursor: pointer;
+    color: rgb(255, 115, 0);
+    text-decoration: underline;
+}
+
+.navbar .menu .menu1, .menu2, .menu3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .menu .menu1, .menu2, .menu3, img {
+    width: 100px;
+    height: 10px;
+    margin: 10px;
+    align-content: center;
+    position: relative;
+    left: -25px;
+}
+
+#Contact {
+    color: rgb(255, 115, 0) ;
+    position: relative;
+    /* right: 50px; */
+}
+
+#Contact:hover {
+    color: white;
+}
+
+.navbar .menu .menu4 {
+    display: flex;
+    flex: row;
+    align-items: center;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 0px 1px;
+    height: 45px;
+}
+
+.navbar .menu .menu4:hover {
+    background-color: rgb(245, 221, 201) ;
+}
+
+#img2 {
+    width: 30px;
+    height: 30px;
+}
+
+/* Fin de la barre de navigation */
+
+/* Configuration de la partie2 */
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+     position: relative;
+     background-size: cover;
+     top: 0;
+     left: 0;
+     
+}
+
+.back {
+    position: absolute;
+    background-color:  rgba(0, 44, 67, 0.8) ;
+    width: 100%;
+    height: 700px;
+}
+
+.part2 .text1 {
+    position: absolute;
+    top: 100px;
+}
+
+.part2 img {
+    width: 100%;
+    height: 690px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.part2 h1 {
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    font-size: 80px;
+}
+
+.part2 p {
+    color: white;
+    left: 100px;
+    position: relative;
+    top: 230px;
+    
+}
+
+.part2 span{
+    color:  rgb(255, 115, 0);
+}
+
+/* Fin de configuration de part2 */
+
+/* Configuration de la part3 */
+.container {
+    margin-left: 50px;
+    display: flex;                                                                                                   /*les div s'affichent de facon horizontal; l'un a gauche et l'autre a droite*/ 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.left {
+    position: relative;
+    width: 590px;
+}
+
+.left h6 {
+    color: orange;
+    /* margin-top: 50px; */
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.touch {
+    color: orange;
+}
+
+.contact{
+    height: 20px;
+    width: 300px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 170px 170px;
+    /* 
+    display: block;
+    position: relative; */
+}
+
+.contact h7{
+    /* height: 100%; */
+    font-weight: normal;
+    display: block;
+    font-size: 12px;
+    margin-left: 25px;
+    /* position: relative; */
+}
+
+form {
+    position: relative;
+    top: 75px;
+    width: 450px;
+    margin-left: 10px;
+    /* z-index: 10; */
+}
+
+.inputs {
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 13px;
+    margin-bottom: 10px;
+} 
+
+#Mail{
+    margin-left: 10px;
+}
+
+#Sub {
+    padding-right: 200px;
+}
+
+button {
+    color:white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Fin de configuration de la part3 */
+
+/* Configuration de la part */
+.div1{
+    
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0%;
+   background-image: linear-gradient(to right, rgb(0,44,67),#3c687c,rgb(0,44,67));
+
+   /* color: hsl(25, 50%, 100%);*/
+    margin-left: 0px;
+    margin-right: 0%;
+    margin-top: 2%;
+    position: relative;
+    
+   /* background-color:#23daff;*/
+   /*background-color: rgb(0,44, 67,0.5);*/
+}
+.div2{
+    margin: auto;
+    display:flex;
+    position:relative;
+    top: 10px;;
+    left: 100px;
+    right: 100px;
+    bottom: 100%;
+    padding-top: 10px;
+    height: 10px;
+}
+.div1 h1{
+text-align: center;
+position: absolute;
+top: 30px;
+left: 400px;
+color: white;
+font-size: 40px;
+height: 10px;
+/*font-family:Georgia, 'Times New Roman', Times, serif*/
+
+}
+.premier {
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 65px;
+    left: 400px;
+    color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div1 h5{
+    text-align: center;
+    font-style: normal;
+    font-size: 8px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+    color: white;
+}
+.div1 h6{
+    text-align: center;
+    font-style: normal;
+    font-size: 8px; 
+    position:absolute;
+    top: 155px;
+    left: 400px;
+    color: white;
+}
+.Potential {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 64%;
+    top: 160px;
+   
+}
+
+.Potential #correct1, #correct2, #correct3 {
+    width: 2%;
+    height: 30%;
+}
+.Potential div{
+   margin-left: -450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.Potential div p{
+    font-size: 10px;
+    margin-left: -20px;
+    color: white;
+}
+
+
+.bouton{
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 390px;
+    top: 215px;
+    background-color: orange;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-size: 200%;
+
+}
+/*.div1 :hover{
+    background-position: right;
+    cursor: pointer;
+}*/
+.image{
+    position: relative;
+    top: 6px;
+    left: 100px;
+    height: 300px;
+    margin-bottom: 40px;
+
+}
+
+#mon_image {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 65px;
+}
+
+/* Fin de configuration de la part */
+
+/* Configuration de la part4 */
+section{
+    height: 590px;
+    background-color: white;
+    margin-left: 150px;
+}
+.gauche{
+    position: absolute;
+    width: 500px;
+    text-align:left;
+    margin-top: 50px;
+    margin-left: 110px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text_color{
+    color: rgb(231, 130, 8);  
+}
+.cadre_container{
+  display: flex;  
+}
+.cadre{
+    background-color: rgb(0, 44, 67);
+    height: 250px;
+    width: 200px;
+    border-radius: 5px; /* Ajustez le rayon selon votre préférence */
+    padding: 15px; /* Ajoutez un espace intérieur au cadre if nécessaire */
+    color: white;
+    margin-top: 25px;
+    
+}
+.espace{
+    width: 25px;
+}
+.cadre p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    font-weight: 100;
+    color: white;
+    margin-top: 4px;
+    font-size: 11px;
+}
+.contact-info {
+    display: block;
+    position: relative;
+    margin-top:25px;
+}
+  
+.contact-section {
+    display: flex;
+}
+  
+
+#icon1, #icon2, #icon3, #icon4, #icon5, #icon6{
+    margin-top: 30px;
+    height: 30px;
+    width: 30px;
+}
+.droite{
+    position: relative;
+    right: 0;
+   left: 600px;
+    top: 0;
+    width: 400px;
+
+}
+.droite #capture{
+   margin: 60px;
+   height: 450px;
+   width: 320px;
+   border-radius: 10px;
+}
+
+/* Fin de configuration de la part4 */
+
+/* Configuration du footer */
+
+footer{
+    background-color: rgb(0, 44, 67);
+    padding: 20px 0 10px 0;
+    margin: 0;
+    height: 500px;
+    margin-bottom: -100px;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  
+  
+  
+  .principale{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: fit-content;
+    
+  
+  }
+  .propo{
+  
+    height: 200px;
+    
+    max-width: 25%;
+    margin: 60px;
+  
+    
+  }
+  .propo p{
+    text-align: left;
+    color: bisque;
+    font-size: 0.8em;
+  
+  }
+  .propo h3{
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  
+  .propo li{
+    color:bisque;
+    font-size: 0.8em;
+    padding: 3px;
+  
+  }
+  
+  #logo {
+    width: 310px;
+  
+    padding-bottom: 0%;
+  
+    height: 90px;
+    align-content: center;
+  }
+  .taille{
+    height: 50px;
+    width: 50px;
+  }
+  .single-cta i {
+    color: #ff860d;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+    }
+    .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+    }
+    .cta-text h4 {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 2px;
+    }
+    .cta-text span {
+    color: #ff860d;
+    font-size: 0.3em;
+    }
+  
+    .visiter p {
+      padding-top: 0px;
+      color: bisque;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      font-size: 1.4em;
+    }
+    .trait{
+      height: 1px;
+      width: 90%;
+      margin:0 auto;
+      background-color:#fffae1 ;
+    }
+
+   #fin {
+    margin-top: 420px;
+    position: relative;
+    right: 565px;
+    color: rgb(212, 202, 202);
+    font-size: 20px;
+   }
+    /* Fin de congiguration du footer */
